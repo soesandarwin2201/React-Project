@@ -22,6 +22,8 @@
   color: #fff;
   padding: 1rem 0.5rem;
   border: 1px solid #ededed;
+  display: flex;
+  gap: 1rem;
 }
 
 .cal-btn-body {
@@ -41,6 +43,10 @@
   height: 60px;
   background-color: #ececec;
   border: 1px solid #bebebe;
+}
+
+.col:hover {
+  background-color: #d7a1f9;
 }
 
 .span {
