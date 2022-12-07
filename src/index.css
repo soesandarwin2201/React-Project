@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f0f4f8;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+}
+
+.calculator-title {
+  flex-basis: 50%;
+}
+
+.calculator-title h1 {
+  color: #000;
+  margin-top: 1rem;
+}
+
 .cal-grid {
   margin-top: 5rem;
   margin-inline: 10rem;
@@ -12,13 +32,15 @@
   width: 500px;
   align-items: center;
   justify-content: center;
-  border: 1px solid #000;
+  border: 1px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  border-radius: 0.5rem;
 }
 
 .cal-result {
   width: 100%;
   text-align: right;
-  background-color: #9867c5;
+  background-color: #96b3d1;
   color: #fff;
   padding: 1rem 0.5rem;
   border: 1px solid #ededed;
@@ -41,8 +63,9 @@
   padding: 1rem;
   width: 125px;
   height: 60px;
-  background-color: #ececec;
+  background-color: #d4e0ec;
   border: 1px solid #bebebe;
+  color: #000;
 }
 
 .col:hover {
@@ -55,4 +78,69 @@
 
 .col-4 {
   background-color: #f5a33e;
+}
+
+/* styling for the full website */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #96b3d1;
+  padding: 1.3rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  transition: 0.4s ease-in;
+}
+
+.navbar ul li:hover {
+  border-bottom: 2px solid #9867c5;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  margin: 1rem;
+  color: #fff;
+}
+
+.home {
+  color: #000;
+  margin-top: 5rem;
+  margin-inline: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  border: 0.5px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.quote {
+  color: #000;
+  margin-top: 5rem;
+  margin-inline: 5rem;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  border: 0.5px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
