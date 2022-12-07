@@ -1,10 +1,10 @@
 
+<a name="readme-top"></a>
+
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Food App ](#-food-app-)
+- [📖 \[Math magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,45 +27,46 @@
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
-  - [📝 License ](#-license-)
+  - [Contributing](#contributing)
+  - [Show your support](#show-your-support)
+  - [📝 License](#-license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Food App <a name="about-project"></a>
+# 📖 [Math magicians] <a name="about-project"></a>
 
-Food App is a JavaScript capstone group project about building our own web application based on an external API. We selected the MEALDB API that provides meal category data for our Food App and built the webapp around it. This app allows the user to see various kinds of meal categories with the functionalities of like and comment features.
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+Make simple calculations.
+Read a random math-related quote. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
+* HTML/CSS
+* JavaScript (ES6/ES7..)
+* React.js
+
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML
-
-- CSS
-
-- Javascript
-
-- Webpack
-
-- React 
-
-- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
-
-- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
-
-- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript (ES6/ES7..)</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **The users are able to see the react icon**
 
+- Just a setup
+- Just a setup
+- Just a setup
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,8 +74,8 @@ Food App is a JavaScript capstone group project about building our own web appli
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Please use the following link to access the website:
-- [Live Demo Link]
+
+- Not for now
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,18 +87,22 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- Have a local version control like Git. Which is a open source distributed version control system designed for source code management
-- A text editor (e.g Visual Studio Code, Vim, Atom & Sublime.)
-- A web browser (e.g Chrome, Safari, Mozilla Firefox.)
-- Live Server which is a web extension that helps you to live reload feature for dynamic content (PHP, Node.js, ASPNET)
-- Download waves to check project accessibilty
+In order to run this project you need:
+* GitHub flow
+* Gitflow
+* HTML and CSS
+* JAVASCRIPT (ES6/...)
+* React.js
+* npm
+* Node.js
+* Any code editer (vs code)
+
 
 ### Setup
 
-1. Clone the repo by running the command
-   ```sh
-    git clone https://github.com/soesandarwin2201/React-Project
-   ```
+Clone this repository to your desired folder:
+
+```cd [your-folder] https://github.com/soesandarwin2201/React-Project```
 
 ### Install
 
@@ -116,38 +121,36 @@ Install this project with:
    Click and open the index.html file
    ```
 
+ 
+
 ### Usage
 
 To run the project, execute the following command:
 
-5. Please run the following to render on the browser
-   ```sh
-   npm start
-   ```
+
+1. for build ```npm run build```
+2. for development ```npm start```
 
 ### Run tests
 
 To run tests, run the following command:
 
-6. Please run the following to test
-   ```sh
-   npm run test
-   ```
+```npm test```
+
 
 ### Deployment
 
 You can deploy this project using:
 
-7. Please run the following to deploy
-   ```sh
-   npm run deploy
-   ```
+```npm run deploy - Deploys using gh-pages```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
 
 👤 Soe Sandar Win
 
@@ -160,63 +163,23 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **The user will be able to make reservations to the restaurant**
-- [ ] **The user will be able to add the food to the favorite list**
-- [ ] **The user will be able to order the food**
+- [ ] Make simple calculator.
+- [ ] Read a random math-related quote.
+- [ ] Add Home page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+## Contributing
 
-## 🤝 Contributing <a name="contributing"></a>
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Abdessittir/math-magicians/issues).
 
-- Contributions, issues, and feature requests are welcome!
+## Show your support
+Give a ⭐️ if you like this project!
 
-- Feel free to check the [issues page](https://github.com/KIsmoilov/JS-Capstone-Project/issues).
+## 📝 License
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-- Give a ⭐️ if you like this project!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-- We would like to thank [TheMealDB](https://www.themealdb.com/api.php) for using thier free API in this project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-- **How can I find the node modules folder?**
-
-  - The node modules folder was added to the gitignore file, so you need to install it manually
-  
-  Please run the following to install node modules
-   ```sh
-   npm install
-   ```
-
-
-- **Which index.html file should I open to make some changes in src folder or dist folder?**
-
-  - Please make change only to Html, CSS and JS files in the src directory
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
