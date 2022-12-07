@@ -3,20 +3,23 @@ import { useState } from 'react';
 import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
-const  Claculator = () =>  {
-    const result  = {
+class Claculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
       total: 0,
       next: null,
       operation: null,
     };
-    
-    const [state , setState ] = useState(result);
- 
-   const eventHandler = (e) => {
-    setState(calculate(state, e.target.textContent));
+    this.eventHandler = this.eventHandler.bind(this);
   }
 
-   const { total, next, operation } = this.state;
+  eventHandler(e) {
+    this.setState(calculate(this.state, e.target.textContent));
+  }
+
+  render() {
+    const { total, next, operation } = this.state;
     return (
       <>
         <div className='app'>
@@ -102,7 +105,7 @@ const  Claculator = () =>  {
         </div>
       </>
     );
-  
+  }
 }
 
 export default Claculator;
