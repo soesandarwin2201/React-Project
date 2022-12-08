@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="calculator-title"
+  >
+    <h1>
+      Let's do some math!
+    </h1>
+  </div>
+  <div
+    className="cal-grid"
+  >
+    <div
+      className="cal-result"
+    >
+      <p>
+        0
+      </p>
+      <p />
+      <p />
+    </div>
+    <div
+      className="cal-btn-body"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-1 col"
+          onClick={[Function]}
+        >
+          AC
+        </div>
+        <div
+          className="col-2 col"
+          onClick={[Function]}
+        >
+          +/-
+        </div>
+        <div
+          className="col-3 col"
+          onClick={[Function]}
+        >
+          %
+        </div>
+        <div
+          className="col-4 col"
+          onClick={[Function]}
+        >
+          ÷
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-1 col"
+          onClick={[Function]}
+        >
+          7
+        </div>
+        <div
+          className="col-2 col"
+          onClick={[Function]}
+        >
+          8
+        </div>
+        <div
+          className="col-3 col"
+          onClick={[Function]}
+        >
+          9
+        </div>
+        <div
+          className="col-4 col"
+          onClick={[Function]}
+        >
+          x
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-1 col"
+          onClick={[Function]}
+        >
+          4
+        </div>
+        <div
+          className="col-2 col"
+          onClick={[Function]}
+        >
+          5
+        </div>
+        <div
+          className="col-3 col"
+          onClick={[Function]}
+        >
+          6
+        </div>
+        <div
+          className="col-4 col"
+          onClick={[Function]}
+        >
+          -
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-1 col"
+          onClick={[Function]}
+        >
+          1
+        </div>
+        <div
+          className="col-2 col"
+          onClick={[Function]}
+        >
+          2
+        </div>
+        <div
+          className="col-3 col"
+          onClick={[Function]}
+        >
+          3
+        </div>
+        <div
+          className="col-4 col"
+          onClick={[Function]}
+        >
+          +
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-1 span col"
+          onClick={[Function]}
+        >
+          0
+        </div>
+        <div
+          className="col-3 col"
+          onClick={[Function]}
+        >
+          .
+        </div>
+        <div
+          className="col-4 col"
+          onClick={[Function]}
+        >
+          =
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
