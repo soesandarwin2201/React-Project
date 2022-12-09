@@ -74,7 +74,7 @@ Read a random math-related quote.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- Not for now
+- Live Demo (https://math-magicians-example.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
