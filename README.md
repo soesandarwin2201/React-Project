@@ -73,8 +73,9 @@ Read a random math-related quote.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+Click here to see the [Live Demo](https://soesandarwin2201.github.io/es6.books.soesandarwin2201.github.io/) of the website 
 
-- Live Demo (https://math-magicians-example.onrender.com/)
+  ![](./src/images/math%20magician%20project.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +102,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```cd [your-folder] https://github.com/soesandarwin2201/React-Project```
+```cd https://github.com/soesandarwin2201/React-Project```
 
 ### Install
 
